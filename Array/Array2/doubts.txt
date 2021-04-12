@@ -1,0 +1,9 @@
+https://www.geeksforgeeks.org/maximum-profit-by-buying-and-selling-ashare-at-most-twice/
+
+https://practice.geeksforgeeks.org/problems/minimize-the-heights/0
+
+https://practice.geeksforgeeks.org/problems/minimum-number-of-jumps/0
+
+https://www.hackerearth.com/practice/algorithms/searching/binary-search/practice-problems/algorithm/rasta-and-kheshtak/
+
+Spoj Problems in Sorting and Searchings

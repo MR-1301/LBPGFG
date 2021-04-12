@@ -1,0 +1,1 @@
+{"name":"Local: DivEle","url":"c:\\Users\\Admin\\Desktop\\NW\\LBP\\SetAndMap2\\DivEle.cpp","tests":[{"id":1616223441735,"input":"6\n2 3 4 6 8 9","output":"4 6 8 9"},{"id":1616223452444,"input":"5\n3 5 7 11","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\Admin\\Desktop\\NW\\LBP\\SetAndMap2\\DivEle.cpp","group":"local","local":true}
