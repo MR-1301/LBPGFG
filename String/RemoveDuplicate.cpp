@@ -34,6 +34,20 @@ vc g[N];
 void solve()
 {
 	ll i, j, l, k, p, q, r, x, y, u, v, n, m;
+	string s;
+    cin>>s;
+    int j=0;
+    unordered_set<ll> a;
+    Ff(i,0,n)
+    {
+        if(a.find(s[i])==a.end())
+        {
+            s[j++]=s[i];
+            a.insert(s[i]);
+        }
+    }
+    s.resize(j);
+    cout<<s;
 }
 
 int main() {
@@ -43,7 +57,7 @@ int main() {
 	// cin>>t;
 	while(t--)
 	{
-	solve();
+		solve();
 	}
 	return 0;
 }
