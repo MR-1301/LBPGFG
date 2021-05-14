@@ -34,15 +34,39 @@ vc g[N];
 void solve()
 {
 	ll i, j, l, k, p, q, r, x, y, u, v, n, m;
+    string a,b,c;
+    cin>>a>>b>>c;
+
+    ll A=a.size();
+    ll B=b.size();
+    ll C=c.size();
+
+    n=0;
+    m=0;
+    for(i=0;i<C;i++)
+    {
+        if(n<A and a[n]==c[i])
+        {
+            n++;
+        }
+        else if(m<B and b[m]==c[i])
+        {
+            m++;
+        }
+        else{
+            cout<<"No\n";
+            return ;
+        }
+    }
+
+    if(n==A and m==B)
+    cout<<"Yes\n";
+    else
+    cout<<"No\n";
 }
 
 int main() {
 	FAST;
-	#ifndef ONLINE_JUDGE
-        freopen("input.txt", "r", stdin);
-        freopen("output.txt", "w", stdout);
-        freopen("error.txt", "w", stderr);
-    #endif // ONLINE_JUDGE
 	ll t;
 	t=1;
 	// cin>>t;

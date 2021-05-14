@@ -1,5 +1,6 @@
 //Mahir Ratanpara (DA-IICT)
-#include<bits/stdc++.h>
+#include<iostream>
+#include <vector>
 using namespace std;
 #define Ff(i,a,n) for(i=a;i<n;i++)
 #define Fr(i,a,n) for(i=a;i>n;i--)
@@ -26,6 +27,7 @@ void outc(vc a);
 void oute(vc a);
 void out2(matrix a);
 const int mod = 1000000007;
+
 const int N = 3e5, M = N;
 //=======================
 

@@ -17,9 +17,9 @@ typedef pair<ll, ll>	pa;
 typedef vector<ll>		vc;
 typedef vector<pa>		vp;
 typedef vector<vc>		vvc;
-using matrix=vector<vector<ll> >; 
+using matrix=vector<vector<ll> >;
 
-int mpow(int base, int exp); 
+int mpow(int base, int exp);
 void ipgraph(ll n,ll m);
 void dfs(int u, int par);
 void outc(vc a);
@@ -34,6 +34,36 @@ vc g[N];
 void solve()
 {
 	ll i, j, l, k, p, q, r, x, y, u, v, n, m;
+	string s;
+	cin>>s;
+
+	n=s.size();
+	n=pow(2,n);
+	set<string> ans;
+    for (i = 1; i < n; ++i) {
+        vc b;
+        ll temp=i;
+        while(temp)
+        {
+            b.push_back(temp%2);
+            temp/=2;
+        }
+        while(b.size()<s.size()){
+            b.push_back(0);
+        }
+        string psh="";
+        for(j=0;j<s.size();j++)
+        {
+            if(b[j])
+            {
+                psh.push_back(s[j]);
+            }
+        }
+        ans.insert(psh);
+    }
+
+    for(auto itr:ans)
+        cout<<itr<< endl;
 }
 
 int main() {
