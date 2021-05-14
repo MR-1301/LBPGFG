@@ -36,6 +36,10 @@ vc g[N];
 void solve()
 {
 	ll i, j, l, k, p, q, r, x, y, u, v, n, m;
+	cin>>n;
+	vector<ll> a;
+	inp(a);
+    outc(a);
 }
 
 int main() {
