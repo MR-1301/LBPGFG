@@ -2,7 +2,7 @@ file(REMOVE_RECURSE
   "CLionLBP.exe"
   "CLionLBP.exe.manifest"
   "CLionLBP.pdb"
-  "CMakeFiles/CLionLBP.dir/String/ValidIp.cpp.obj"
+  "CMakeFiles/CLionLBP.dir/String/Editdistance.cpp.obj"
   "libCLionLBP.dll.a"
 )
 

@@ -38,6 +38,11 @@ public:
 // { Driver Code Starts.
 int main()
 {
+#ifndef ONLINE_JUDGE
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
+    freopen("error.txt", "w", stderr);
+#endif // ONLINE_JUDGE
     int t,n,k,x,y;
     cin>>t;
     while(t--)

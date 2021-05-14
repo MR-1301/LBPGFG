@@ -75,27 +75,27 @@ include CMakeFiles/CLionLBP.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/CLionLBP.dir/flags.make
 
-CMakeFiles/CLionLBP.dir/String/ValidIp.cpp.obj: CMakeFiles/CLionLBP.dir/flags.make
-CMakeFiles/CLionLBP.dir/String/ValidIp.cpp.obj: ../String/ValidIp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Admin\Desktop\CLionLBP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CLionLBP.dir/String/ValidIp.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CLionLBP.dir\String\ValidIp.cpp.obj -c C:\Users\Admin\Desktop\CLionLBP\String\ValidIp.cpp
+CMakeFiles/CLionLBP.dir/String/Editdistance.cpp.obj: CMakeFiles/CLionLBP.dir/flags.make
+CMakeFiles/CLionLBP.dir/String/Editdistance.cpp.obj: ../String/Editdistance.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Admin\Desktop\CLionLBP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CLionLBP.dir/String/Editdistance.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CLionLBP.dir\String\Editdistance.cpp.obj -c C:\Users\Admin\Desktop\CLionLBP\String\Editdistance.cpp
 
-CMakeFiles/CLionLBP.dir/String/ValidIp.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CLionLBP.dir/String/ValidIp.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Desktop\CLionLBP\String\ValidIp.cpp > CMakeFiles\CLionLBP.dir\String\ValidIp.cpp.i
+CMakeFiles/CLionLBP.dir/String/Editdistance.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CLionLBP.dir/String/Editdistance.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Desktop\CLionLBP\String\Editdistance.cpp > CMakeFiles\CLionLBP.dir\String\Editdistance.cpp.i
 
-CMakeFiles/CLionLBP.dir/String/ValidIp.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CLionLBP.dir/String/ValidIp.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Desktop\CLionLBP\String\ValidIp.cpp -o CMakeFiles\CLionLBP.dir\String\ValidIp.cpp.s
+CMakeFiles/CLionLBP.dir/String/Editdistance.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CLionLBP.dir/String/Editdistance.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Desktop\CLionLBP\String\Editdistance.cpp -o CMakeFiles\CLionLBP.dir\String\Editdistance.cpp.s
 
 # Object files for target CLionLBP
 CLionLBP_OBJECTS = \
-"CMakeFiles/CLionLBP.dir/String/ValidIp.cpp.obj"
+"CMakeFiles/CLionLBP.dir/String/Editdistance.cpp.obj"
 
 # External object files for target CLionLBP
 CLionLBP_EXTERNAL_OBJECTS =
 
-CLionLBP.exe: CMakeFiles/CLionLBP.dir/String/ValidIp.cpp.obj
+CLionLBP.exe: CMakeFiles/CLionLBP.dir/String/Editdistance.cpp.obj
 CLionLBP.exe: CMakeFiles/CLionLBP.dir/build.make
 CLionLBP.exe: CMakeFiles/CLionLBP.dir/linklibs.rsp
 CLionLBP.exe: CMakeFiles/CLionLBP.dir/objects1.rsp

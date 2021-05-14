@@ -141,32 +141,32 @@ CLionLBP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/build
 .PHONY : CLionLBP/fast
 
-String/ValidIp.obj: String/ValidIp.cpp.obj
+String/Editdistance.obj: String/Editdistance.cpp.obj
 
-.PHONY : String/ValidIp.obj
+.PHONY : String/Editdistance.obj
 
 # target to build an object file
-String/ValidIp.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/String/ValidIp.cpp.obj
-.PHONY : String/ValidIp.cpp.obj
+String/Editdistance.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/String/Editdistance.cpp.obj
+.PHONY : String/Editdistance.cpp.obj
 
-String/ValidIp.i: String/ValidIp.cpp.i
+String/Editdistance.i: String/Editdistance.cpp.i
 
-.PHONY : String/ValidIp.i
+.PHONY : String/Editdistance.i
 
 # target to preprocess a source file
-String/ValidIp.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/String/ValidIp.cpp.i
-.PHONY : String/ValidIp.cpp.i
+String/Editdistance.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/String/Editdistance.cpp.i
+.PHONY : String/Editdistance.cpp.i
 
-String/ValidIp.s: String/ValidIp.cpp.s
+String/Editdistance.s: String/Editdistance.cpp.s
 
-.PHONY : String/ValidIp.s
+.PHONY : String/Editdistance.s
 
 # target to generate assembly for a file
-String/ValidIp.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/String/ValidIp.cpp.s
-.PHONY : String/ValidIp.cpp.s
+String/Editdistance.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/String/Editdistance.cpp.s
+.PHONY : String/Editdistance.cpp.s
 
 # Help Target
 help:
@@ -177,9 +177,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... CLionLBP
-	@echo ... String/ValidIp.obj
-	@echo ... String/ValidIp.i
-	@echo ... String/ValidIp.s
+	@echo ... String/Editdistance.obj
+	@echo ... String/Editdistance.i
+	@echo ... String/Editdistance.s
 .PHONY : help
 
 

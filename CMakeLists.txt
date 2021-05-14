@@ -3,5 +3,4 @@ project(CLionLBP)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(CLionLBP
-        String/ValidIp.cpp)
+add_executable(CLionLBP String/Editdistance.cpp)
