@@ -168,6 +168,33 @@ String/Editdistance.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/String/Editdistance.cpp.s
 .PHONY : String/Editdistance.cpp.s
 
+String/NextPermu.obj: String/NextPermu.cpp.obj
+
+.PHONY : String/NextPermu.obj
+
+# target to build an object file
+String/NextPermu.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/String/NextPermu.cpp.obj
+.PHONY : String/NextPermu.cpp.obj
+
+String/NextPermu.i: String/NextPermu.cpp.i
+
+.PHONY : String/NextPermu.i
+
+# target to preprocess a source file
+String/NextPermu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/String/NextPermu.cpp.i
+.PHONY : String/NextPermu.cpp.i
+
+String/NextPermu.s: String/NextPermu.cpp.s
+
+.PHONY : String/NextPermu.s
+
+# target to generate assembly for a file
+String/NextPermu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/String/NextPermu.cpp.s
+.PHONY : String/NextPermu.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -180,6 +207,9 @@ help:
 	@echo ... String/Editdistance.obj
 	@echo ... String/Editdistance.i
 	@echo ... String/Editdistance.s
+	@echo ... String/NextPermu.obj
+	@echo ... String/NextPermu.i
+	@echo ... String/NextPermu.s
 .PHONY : help
 
 

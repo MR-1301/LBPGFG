@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/Admin/Desktop/CLionLBP/String/Editdistance.cpp" "C:/Users/Admin/Desktop/CLionLBP/cmake-build-debug/CMakeFiles/CLionLBP.dir/String/Editdistance.cpp.obj"
+  "C:/Users/Admin/Desktop/CLionLBP/String/NextPermu.cpp" "C:/Users/Admin/Desktop/CLionLBP/cmake-build-debug/CMakeFiles/CLionLBP.dir/String/NextPermu.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -6,9 +6,7 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Admin/Desktop/CLionLBP/String/ValidIp.cpp
-iostream
--
-vector
+C:/Users/Admin/Desktop/CLionLBP/String/Editdistance.cpp
+bits/stdc++.h
 -
 

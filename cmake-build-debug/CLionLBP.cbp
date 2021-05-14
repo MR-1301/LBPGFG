@@ -83,6 +83,9 @@
 		<Unit filename="C:/Users/Admin/Desktop/CLionLBP/String/Editdistance.cpp">
 			<Option target="CLionLBP"/>
 		</Unit>
+		<Unit filename="C:/Users/Admin/Desktop/CLionLBP/String/NextPermu.cpp">
+			<Option target="CLionLBP"/>
+		</Unit>
 		<Unit filename="C:/Users/Admin/Desktop/CLionLBP/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
