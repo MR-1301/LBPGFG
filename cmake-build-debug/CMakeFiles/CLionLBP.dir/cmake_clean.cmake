@@ -2,8 +2,7 @@ file(REMOVE_RECURSE
   "CLionLBP.exe"
   "CLionLBP.exe.manifest"
   "CLionLBP.pdb"
-  "CMakeFiles/CLionLBP.dir/String/Editdistance.cpp.obj"
-  "CMakeFiles/CLionLBP.dir/String/NextPermu.cpp.obj"
+  "CMakeFiles/CLionLBP.dir/String/minFlips.cpp.obj"
   "libCLionLBP.dll.a"
 )
 

@@ -141,59 +141,32 @@ CLionLBP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/build
 .PHONY : CLionLBP/fast
 
-String/Editdistance.obj: String/Editdistance.cpp.obj
+String/minFlips.obj: String/minFlips.cpp.obj
 
-.PHONY : String/Editdistance.obj
-
-# target to build an object file
-String/Editdistance.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/String/Editdistance.cpp.obj
-.PHONY : String/Editdistance.cpp.obj
-
-String/Editdistance.i: String/Editdistance.cpp.i
-
-.PHONY : String/Editdistance.i
-
-# target to preprocess a source file
-String/Editdistance.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/String/Editdistance.cpp.i
-.PHONY : String/Editdistance.cpp.i
-
-String/Editdistance.s: String/Editdistance.cpp.s
-
-.PHONY : String/Editdistance.s
-
-# target to generate assembly for a file
-String/Editdistance.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/String/Editdistance.cpp.s
-.PHONY : String/Editdistance.cpp.s
-
-String/NextPermu.obj: String/NextPermu.cpp.obj
-
-.PHONY : String/NextPermu.obj
+.PHONY : String/minFlips.obj
 
 # target to build an object file
-String/NextPermu.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/String/NextPermu.cpp.obj
-.PHONY : String/NextPermu.cpp.obj
+String/minFlips.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/String/minFlips.cpp.obj
+.PHONY : String/minFlips.cpp.obj
 
-String/NextPermu.i: String/NextPermu.cpp.i
+String/minFlips.i: String/minFlips.cpp.i
 
-.PHONY : String/NextPermu.i
+.PHONY : String/minFlips.i
 
 # target to preprocess a source file
-String/NextPermu.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/String/NextPermu.cpp.i
-.PHONY : String/NextPermu.cpp.i
+String/minFlips.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/String/minFlips.cpp.i
+.PHONY : String/minFlips.cpp.i
 
-String/NextPermu.s: String/NextPermu.cpp.s
+String/minFlips.s: String/minFlips.cpp.s
 
-.PHONY : String/NextPermu.s
+.PHONY : String/minFlips.s
 
 # target to generate assembly for a file
-String/NextPermu.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/String/NextPermu.cpp.s
-.PHONY : String/NextPermu.cpp.s
+String/minFlips.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/String/minFlips.cpp.s
+.PHONY : String/minFlips.cpp.s
 
 # Help Target
 help:
@@ -204,12 +177,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... CLionLBP
-	@echo ... String/Editdistance.obj
-	@echo ... String/Editdistance.i
-	@echo ... String/Editdistance.s
-	@echo ... String/NextPermu.obj
-	@echo ... String/NextPermu.i
-	@echo ... String/NextPermu.s
+	@echo ... String/minFlips.obj
+	@echo ... String/minFlips.i
+	@echo ... String/minFlips.s
 .PHONY : help
 
 
