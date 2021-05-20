@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Admin/Desktop/CLionLBP/String/minFlips.cpp">
+		<Unit filename="C:/Users/Admin/Desktop/CLionLBP/Greedy/maxProdSubset.cpp">
 			<Option target="CLionLBP"/>
 		</Unit>
 		<Unit filename="C:/Users/Admin/Desktop/CLionLBP/CMakeLists.txt">

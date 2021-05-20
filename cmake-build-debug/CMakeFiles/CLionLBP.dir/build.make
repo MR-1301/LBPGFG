@@ -75,27 +75,27 @@ include CMakeFiles/CLionLBP.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/CLionLBP.dir/flags.make
 
-CMakeFiles/CLionLBP.dir/String/minFlips.cpp.obj: CMakeFiles/CLionLBP.dir/flags.make
-CMakeFiles/CLionLBP.dir/String/minFlips.cpp.obj: ../String/minFlips.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Admin\Desktop\CLionLBP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CLionLBP.dir/String/minFlips.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CLionLBP.dir\String\minFlips.cpp.obj -c C:\Users\Admin\Desktop\CLionLBP\String\minFlips.cpp
+CMakeFiles/CLionLBP.dir/Greedy/maxProdSubset.cpp.obj: CMakeFiles/CLionLBP.dir/flags.make
+CMakeFiles/CLionLBP.dir/Greedy/maxProdSubset.cpp.obj: ../Greedy/maxProdSubset.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Admin\Desktop\CLionLBP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CLionLBP.dir/Greedy/maxProdSubset.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CLionLBP.dir\Greedy\maxProdSubset.cpp.obj -c C:\Users\Admin\Desktop\CLionLBP\Greedy\maxProdSubset.cpp
 
-CMakeFiles/CLionLBP.dir/String/minFlips.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CLionLBP.dir/String/minFlips.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Desktop\CLionLBP\String\minFlips.cpp > CMakeFiles\CLionLBP.dir\String\minFlips.cpp.i
+CMakeFiles/CLionLBP.dir/Greedy/maxProdSubset.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CLionLBP.dir/Greedy/maxProdSubset.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Desktop\CLionLBP\Greedy\maxProdSubset.cpp > CMakeFiles\CLionLBP.dir\Greedy\maxProdSubset.cpp.i
 
-CMakeFiles/CLionLBP.dir/String/minFlips.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CLionLBP.dir/String/minFlips.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Desktop\CLionLBP\String\minFlips.cpp -o CMakeFiles\CLionLBP.dir\String\minFlips.cpp.s
+CMakeFiles/CLionLBP.dir/Greedy/maxProdSubset.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CLionLBP.dir/Greedy/maxProdSubset.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Desktop\CLionLBP\Greedy\maxProdSubset.cpp -o CMakeFiles\CLionLBP.dir\Greedy\maxProdSubset.cpp.s
 
 # Object files for target CLionLBP
 CLionLBP_OBJECTS = \
-"CMakeFiles/CLionLBP.dir/String/minFlips.cpp.obj"
+"CMakeFiles/CLionLBP.dir/Greedy/maxProdSubset.cpp.obj"
 
 # External object files for target CLionLBP
 CLionLBP_EXTERNAL_OBJECTS =
 
-CLionLBP.exe: CMakeFiles/CLionLBP.dir/String/minFlips.cpp.obj
+CLionLBP.exe: CMakeFiles/CLionLBP.dir/Greedy/maxProdSubset.cpp.obj
 CLionLBP.exe: CMakeFiles/CLionLBP.dir/build.make
 CLionLBP.exe: CMakeFiles/CLionLBP.dir/linklibs.rsp
 CLionLBP.exe: CMakeFiles/CLionLBP.dir/objects1.rsp

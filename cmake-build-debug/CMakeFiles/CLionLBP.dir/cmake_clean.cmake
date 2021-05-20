@@ -2,7 +2,7 @@ file(REMOVE_RECURSE
   "CLionLBP.exe"
   "CLionLBP.exe.manifest"
   "CLionLBP.pdb"
-  "CMakeFiles/CLionLBP.dir/String/minFlips.cpp.obj"
+  "CMakeFiles/CLionLBP.dir/Greedy/maxProdSubset.cpp.obj"
   "libCLionLBP.dll.a"
 )
 

@@ -141,32 +141,32 @@ CLionLBP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/build
 .PHONY : CLionLBP/fast
 
-String/minFlips.obj: String/minFlips.cpp.obj
+Greedy/maxProdSubset.obj: Greedy/maxProdSubset.cpp.obj
 
-.PHONY : String/minFlips.obj
+.PHONY : Greedy/maxProdSubset.obj
 
 # target to build an object file
-String/minFlips.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/String/minFlips.cpp.obj
-.PHONY : String/minFlips.cpp.obj
+Greedy/maxProdSubset.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/Greedy/maxProdSubset.cpp.obj
+.PHONY : Greedy/maxProdSubset.cpp.obj
 
-String/minFlips.i: String/minFlips.cpp.i
+Greedy/maxProdSubset.i: Greedy/maxProdSubset.cpp.i
 
-.PHONY : String/minFlips.i
+.PHONY : Greedy/maxProdSubset.i
 
 # target to preprocess a source file
-String/minFlips.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/String/minFlips.cpp.i
-.PHONY : String/minFlips.cpp.i
+Greedy/maxProdSubset.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/Greedy/maxProdSubset.cpp.i
+.PHONY : Greedy/maxProdSubset.cpp.i
 
-String/minFlips.s: String/minFlips.cpp.s
+Greedy/maxProdSubset.s: Greedy/maxProdSubset.cpp.s
 
-.PHONY : String/minFlips.s
+.PHONY : Greedy/maxProdSubset.s
 
 # target to generate assembly for a file
-String/minFlips.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/String/minFlips.cpp.s
-.PHONY : String/minFlips.cpp.s
+Greedy/maxProdSubset.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/Greedy/maxProdSubset.cpp.s
+.PHONY : Greedy/maxProdSubset.cpp.s
 
 # Help Target
 help:
@@ -177,9 +177,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... CLionLBP
-	@echo ... String/minFlips.obj
-	@echo ... String/minFlips.i
-	@echo ... String/minFlips.s
+	@echo ... Greedy/maxProdSubset.obj
+	@echo ... Greedy/maxProdSubset.i
+	@echo ... Greedy/maxProdSubset.s
 .PHONY : help
 
 
