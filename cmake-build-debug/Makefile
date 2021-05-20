@@ -141,32 +141,32 @@ CLionLBP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/build
 .PHONY : CLionLBP/fast
 
-Greedy/maxProdSubset.obj: Greedy/maxProdSubset.cpp.obj
+Greedy/LRUpageFaults.obj: Greedy/LRUpageFaults.cpp.obj
 
-.PHONY : Greedy/maxProdSubset.obj
+.PHONY : Greedy/LRUpageFaults.obj
 
 # target to build an object file
-Greedy/maxProdSubset.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/Greedy/maxProdSubset.cpp.obj
-.PHONY : Greedy/maxProdSubset.cpp.obj
+Greedy/LRUpageFaults.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/Greedy/LRUpageFaults.cpp.obj
+.PHONY : Greedy/LRUpageFaults.cpp.obj
 
-Greedy/maxProdSubset.i: Greedy/maxProdSubset.cpp.i
+Greedy/LRUpageFaults.i: Greedy/LRUpageFaults.cpp.i
 
-.PHONY : Greedy/maxProdSubset.i
+.PHONY : Greedy/LRUpageFaults.i
 
 # target to preprocess a source file
-Greedy/maxProdSubset.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/Greedy/maxProdSubset.cpp.i
-.PHONY : Greedy/maxProdSubset.cpp.i
+Greedy/LRUpageFaults.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/Greedy/LRUpageFaults.cpp.i
+.PHONY : Greedy/LRUpageFaults.cpp.i
 
-Greedy/maxProdSubset.s: Greedy/maxProdSubset.cpp.s
+Greedy/LRUpageFaults.s: Greedy/LRUpageFaults.cpp.s
 
-.PHONY : Greedy/maxProdSubset.s
+.PHONY : Greedy/LRUpageFaults.s
 
 # target to generate assembly for a file
-Greedy/maxProdSubset.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/Greedy/maxProdSubset.cpp.s
-.PHONY : Greedy/maxProdSubset.cpp.s
+Greedy/LRUpageFaults.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/Greedy/LRUpageFaults.cpp.s
+.PHONY : Greedy/LRUpageFaults.cpp.s
 
 # Help Target
 help:
@@ -177,9 +177,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... CLionLBP
-	@echo ... Greedy/maxProdSubset.obj
-	@echo ... Greedy/maxProdSubset.i
-	@echo ... Greedy/maxProdSubset.s
+	@echo ... Greedy/LRUpageFaults.obj
+	@echo ... Greedy/LRUpageFaults.i
+	@echo ... Greedy/LRUpageFaults.s
 .PHONY : help
 
 
