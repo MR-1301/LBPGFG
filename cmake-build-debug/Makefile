@@ -141,32 +141,32 @@ CLionLBP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/build
 .PHONY : CLionLBP/fast
 
-Greedy/LRUpageFaults.obj: Greedy/LRUpageFaults.cpp.obj
+Greedy/minPlateforms.obj: Greedy/minPlateforms.cpp.obj
 
-.PHONY : Greedy/LRUpageFaults.obj
+.PHONY : Greedy/minPlateforms.obj
 
 # target to build an object file
-Greedy/LRUpageFaults.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/Greedy/LRUpageFaults.cpp.obj
-.PHONY : Greedy/LRUpageFaults.cpp.obj
+Greedy/minPlateforms.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/Greedy/minPlateforms.cpp.obj
+.PHONY : Greedy/minPlateforms.cpp.obj
 
-Greedy/LRUpageFaults.i: Greedy/LRUpageFaults.cpp.i
+Greedy/minPlateforms.i: Greedy/minPlateforms.cpp.i
 
-.PHONY : Greedy/LRUpageFaults.i
+.PHONY : Greedy/minPlateforms.i
 
 # target to preprocess a source file
-Greedy/LRUpageFaults.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/Greedy/LRUpageFaults.cpp.i
-.PHONY : Greedy/LRUpageFaults.cpp.i
+Greedy/minPlateforms.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/Greedy/minPlateforms.cpp.i
+.PHONY : Greedy/minPlateforms.cpp.i
 
-Greedy/LRUpageFaults.s: Greedy/LRUpageFaults.cpp.s
+Greedy/minPlateforms.s: Greedy/minPlateforms.cpp.s
 
-.PHONY : Greedy/LRUpageFaults.s
+.PHONY : Greedy/minPlateforms.s
 
 # target to generate assembly for a file
-Greedy/LRUpageFaults.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/Greedy/LRUpageFaults.cpp.s
-.PHONY : Greedy/LRUpageFaults.cpp.s
+Greedy/minPlateforms.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/Greedy/minPlateforms.cpp.s
+.PHONY : Greedy/minPlateforms.cpp.s
 
 # Help Target
 help:
@@ -177,9 +177,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... CLionLBP
-	@echo ... Greedy/LRUpageFaults.obj
-	@echo ... Greedy/LRUpageFaults.i
-	@echo ... Greedy/LRUpageFaults.s
+	@echo ... Greedy/minPlateforms.obj
+	@echo ... Greedy/minPlateforms.i
+	@echo ... Greedy/minPlateforms.s
 .PHONY : help
 
 

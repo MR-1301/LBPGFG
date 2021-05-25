@@ -34,7 +34,24 @@ vc g[N];
 void solve()
 {
     ll i, j, l, k, p, q, r, x, y, u, v, n, m;
+    cin>>n;
+    vc a(n);
+    inp(a);
+    vc pref(n,0);
+    sortall(a);
+    pref[0]=a[0];
+    for(i=1;i<n;i++)
+    {
+        pref[i]=a[i]+((i!=0)?(pref[i-1]):0);
+    }
 
+    for(i=n-1;i>=0;i--)
+    {
+        if(2*pref[i-1]<pref[n-1])
+            break;
+    }
+
+    cout<<n-i<<endl;
 }
 
 int main() {

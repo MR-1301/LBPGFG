@@ -34,7 +34,53 @@ vc g[N];
 void solve()
 {
     ll i, j, l, k, p, q, r, x, y, u, v, n, m;
+    cin>>n>>m;
+    vector< pair<int,int> > trans[n];
+    for(i=0;i<m;i++)
+    {
+        cin>>x>>y>>u;
+        trans[x].push_back({y,u});
+    }
 
+    vc cost(n,0);
+    for(i=0;i<n;i++)
+    {
+        for(auto itr:trans[i])
+        {
+            cost[i]-=itr.second;
+            cost[itr.first]+=itr.second;
+        }
+    }
+
+    priority_queue<pa> d,c;
+    for(i=0;i<n;i++)
+    {
+        if(cost[i]<0)
+        {
+            d.push({abs(cost[i]),i});
+        }
+        else if(cost[i]>0)
+        {
+            c.push({cost[i],i});
+        }
+    }
+
+    while(d.size()!=0 and c.size()!=0)
+    {
+        pa Pd=d.top();
+        d.pop();
+        pa Pc=c.top();
+        c.pop();
+
+        x= min(Pd.ff,Pc.ff);
+        Pd.ff-=x;
+        Pc.ff-=x;
+        cout<<"Person "<<Pd.ss<<" Gives money to "<<Pc.ss<<" of amount "<<x<<endl;
+        if(Pd.ff>0)
+            d.push(Pd);
+        if(Pc.ff>0)
+            c.push(Pc);
+    }
 }
 
 int main() {

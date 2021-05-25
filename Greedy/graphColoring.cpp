@@ -4,7 +4,7 @@ using namespace std;
 #define Ff(i,a,n) for(i=a;i<n;i++)
 #define Fr(i,a,n) for(i=a;i>n;i--)
 #define ll long long
-#define FAST ios_base::sync_with_stdio(false),cin.tie(0),cout.tie(0)
+#define FAST ios_base::sync_with_stdio(false),cin.tie(0),cout.tie(0);
 #define pb push_back
 #define ff first
 #define ss second
@@ -34,7 +34,36 @@ vc g[N];
 void solve()
 {
     ll i, j, l, k, p, q, r, x, y, u, v, n, m;
+    ll V;
+    ll E;
+    cin>>V>>E;
 
+    ipgraph(V,E);
+
+    vc res(V,-1);
+    res[0]=0;
+    ll maxi=0;
+    for(i=1;i<V;i++)
+    {
+        vector<bool> av(maxi+1,true);
+        for(auto x:g[i])
+        {
+            if(res[x]!=-1)
+                av[res[x]]= false;
+        }
+
+        for(j=0;j<=maxi;j++)
+        {
+            if(av[j])
+                break;
+        }
+        if(j==maxi+1)
+            maxi++;
+        res[i]=j;
+    }
+
+    outc(res);
+    cout<<endl;
 }
 
 int main() {
@@ -46,7 +75,7 @@ int main() {
 #endif // ONLINE_JUDGE
     ll t;
     t=1;
-    // cin>>t;
+     cin>>t;
     while(t--)
     {
         solve();
@@ -69,8 +98,8 @@ void ipgraph(ll n, ll m){
     int i, u, v;
     while(m--){
         cin>>u>>v;
-        g[u-1].pb(v-1);
-        g[v-1].pb(u-1);
+        g[u].pb(v);
+        g[v].pb(u);
     }
 }
 

@@ -4,7 +4,7 @@ using namespace std;
 #define Ff(i,a,n) for(i=a;i<n;i++)
 #define Fr(i,a,n) for(i=a;i>n;i--)
 #define ll long long
-#define FAST ios_base::sync_with_stdio(false),cin.tie(0),cout.tie(0)
+#define FAST ios_base::sync_with_stdio(false),cin.tie(0),cout.tie(0);
 #define pb push_back
 #define ff first
 #define ss second
@@ -34,11 +34,21 @@ vc g[N];
 void solve()
 {
     ll i, j, l, k, p, q, r, x, y, u, v, n, m;
+    vector<int> coin={ 1, 2, 5, 10, 20, 50, 100, 500, 1000};
 
+    cin>>n;
+    m=(ll)coin.size()-1;
+    ll ans=0;
+    for(;m>=0;m--)
+    {
+        ans+=(n/coin[m]);
+        n%=coin[m];
+    }
+    cout<<ans;
 }
 
 int main() {
-    FAST;
+    FAST
 #ifndef ONLINE_JUDGE
     freopen("input.txt", "r", stdin);
     freopen("output.txt", "w", stdout);
@@ -50,6 +60,7 @@ int main() {
     while(t--)
     {
         solve();
+
     }
     return 0;
 }

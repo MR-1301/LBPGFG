@@ -2,7 +2,7 @@ file(REMOVE_RECURSE
   "CLionLBP.exe"
   "CLionLBP.exe.manifest"
   "CLionLBP.pdb"
-  "CMakeFiles/CLionLBP.dir/Greedy/LRUpageFaults.cpp.obj"
+  "CMakeFiles/CLionLBP.dir/Greedy/minPlateforms.cpp.obj"
   "libCLionLBP.dll.a"
 )
 

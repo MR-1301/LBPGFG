@@ -1,3 +1,5 @@
+#pragma clang diagnostic push
+#pragma ide diagnostic ignored "modernize-use-transparent-functors"
 //Mahir Ratanpara (DA-IICT)
 #include<bits/stdc++.h>
 using namespace std;
@@ -34,7 +36,40 @@ vc g[N];
 void solve()
 {
     ll i, j, l, k, p, q, r, x, y, u, v, n, m;
+    cin>>n>>m;
+    vc a(n-1),b(m-1);
+    inp(a);
+    inp(b);
+    sort(all(a),greater<ll>());
+    sort(all(b),greater<ll>());
 
+    i=0;j=0;
+    x=1;
+    y=1;
+    ll ans=0;
+    while(i<n-1 and j<m-1)
+    {
+        if(a[i]>b[j])
+        {
+            ans+=a[i]*y;
+            x++;
+            i++;
+        }
+        else
+        {
+            ans+=b[j]*x;
+            y++;
+            j++;
+        }
+    }
+
+    while(i<n-1)
+        ans+=a[i++]*y;
+
+    while(j<m-1)
+        ans+=b[j++]*x;
+
+    cout<<ans;
 }
 
 int main() {
@@ -46,7 +81,7 @@ int main() {
 #endif // ONLINE_JUDGE
     ll t;
     t=1;
-    // cin>>t;
+     cin>>t;
     while(t--)
     {
         solve();
@@ -102,3 +137,4 @@ void out2(matrix a)
         cout<<"\n";
     }
 }
+#pragma clang diagnostic pop

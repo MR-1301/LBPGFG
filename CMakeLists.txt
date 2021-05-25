@@ -3,4 +3,4 @@ project(CLionLBP)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(CLionLBP Greedy/LRUpageFaults.cpp)
+add_executable(CLionLBP Greedy/minPlateforms.cpp)

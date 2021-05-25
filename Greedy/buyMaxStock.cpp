@@ -34,7 +34,23 @@ vc g[N];
 void solve()
 {
     ll i, j, l, k, p, q, r, x, y, u, v, n, m;
+    cin>>n>>k;
+    vector<pair<ll,ll> > a(n);
+    for(i=0;i<n;i++)
+    {
+        cin>>x;
+        a[i]={x,i+1};
+    }
+    sort(all(a));
 
+    ll ans=0;
+    for(i=0;i<n;i++)
+    {
+        ll bought = min(k / a[i].ff, a[i].ss);
+        ans+=bought;
+        k-=a[i].ff*bought;
+    }
+    cout<<ans;
 }
 
 int main() {

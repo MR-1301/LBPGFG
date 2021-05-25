@@ -34,7 +34,33 @@ vc g[N];
 void solve()
 {
     ll i, j, l, k, p, q, r, x, y, u, v, n, m;
+    cin>>n>>m>>l;
+    vc a(l+2);
+    vc b(l+2);
+    for(i=0;i<l;i++)
+    {
+        cin>>x>>y;
+        a[i]=x;
+        b[i]=y;
+    }
+    a[l]=0;
+    b[l]=0;
+    a[l+1]=n+1;
+    b[l+1]=m+1;
 
+    sortall(a);
+    sortall(b);
+
+    x=0;
+    y=0;
+
+    for(i=1;i<l+2;i++)
+    {
+        x=max(x,a[i]-a[i-1]-1);
+        y=max(y,b[i]-b[i-1]-1);
+    }
+
+    cout<<x*y<<endl;
 }
 
 int main() {
@@ -46,7 +72,7 @@ int main() {
 #endif // ONLINE_JUDGE
     ll t;
     t=1;
-    // cin>>t;
+     cin>>t;
     while(t--)
     {
         solve();

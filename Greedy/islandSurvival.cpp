@@ -34,7 +34,16 @@ vc g[N];
 void solve()
 {
     ll i, j, l, k, p, q, r, x, y, u, v, n, m;
+    ll s;
+    cin>>s>>n>>m;
 
+    if(6*n<7*m)
+    {
+        cout<<"No\n";
+        return;
+    }
+
+    cout<<"Yes "<<(s*m)/n+(((s*m)%n!=0)?1:0)<<endl;
 }
 
 int main() {
