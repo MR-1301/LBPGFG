@@ -2,7 +2,7 @@ file(REMOVE_RECURSE
   "CLionLBP.exe"
   "CLionLBP.exe.manifest"
   "CLionLBP.pdb"
-  "CMakeFiles/CLionLBP.dir/Greedy/minPlateforms.cpp.obj"
+  "CMakeFiles/CLionLBP.dir/RecursionAndBacktracking/ratInMaze.cpp.obj"
   "libCLionLBP.dll.a"
 )
 

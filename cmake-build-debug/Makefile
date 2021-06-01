@@ -141,32 +141,32 @@ CLionLBP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/build
 .PHONY : CLionLBP/fast
 
-Greedy/minPlateforms.obj: Greedy/minPlateforms.cpp.obj
+RecursionAndBacktracking/ratInMaze.obj: RecursionAndBacktracking/ratInMaze.cpp.obj
 
-.PHONY : Greedy/minPlateforms.obj
+.PHONY : RecursionAndBacktracking/ratInMaze.obj
 
 # target to build an object file
-Greedy/minPlateforms.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/Greedy/minPlateforms.cpp.obj
-.PHONY : Greedy/minPlateforms.cpp.obj
+RecursionAndBacktracking/ratInMaze.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/RecursionAndBacktracking/ratInMaze.cpp.obj
+.PHONY : RecursionAndBacktracking/ratInMaze.cpp.obj
 
-Greedy/minPlateforms.i: Greedy/minPlateforms.cpp.i
+RecursionAndBacktracking/ratInMaze.i: RecursionAndBacktracking/ratInMaze.cpp.i
 
-.PHONY : Greedy/minPlateforms.i
+.PHONY : RecursionAndBacktracking/ratInMaze.i
 
 # target to preprocess a source file
-Greedy/minPlateforms.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/Greedy/minPlateforms.cpp.i
-.PHONY : Greedy/minPlateforms.cpp.i
+RecursionAndBacktracking/ratInMaze.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/RecursionAndBacktracking/ratInMaze.cpp.i
+.PHONY : RecursionAndBacktracking/ratInMaze.cpp.i
 
-Greedy/minPlateforms.s: Greedy/minPlateforms.cpp.s
+RecursionAndBacktracking/ratInMaze.s: RecursionAndBacktracking/ratInMaze.cpp.s
 
-.PHONY : Greedy/minPlateforms.s
+.PHONY : RecursionAndBacktracking/ratInMaze.s
 
 # target to generate assembly for a file
-Greedy/minPlateforms.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/Greedy/minPlateforms.cpp.s
-.PHONY : Greedy/minPlateforms.cpp.s
+RecursionAndBacktracking/ratInMaze.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/RecursionAndBacktracking/ratInMaze.cpp.s
+.PHONY : RecursionAndBacktracking/ratInMaze.cpp.s
 
 # Help Target
 help:
@@ -177,9 +177,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... CLionLBP
-	@echo ... Greedy/minPlateforms.obj
-	@echo ... Greedy/minPlateforms.i
-	@echo ... Greedy/minPlateforms.s
+	@echo ... RecursionAndBacktracking/ratInMaze.obj
+	@echo ... RecursionAndBacktracking/ratInMaze.i
+	@echo ... RecursionAndBacktracking/ratInMaze.s
 .PHONY : help
 
 
