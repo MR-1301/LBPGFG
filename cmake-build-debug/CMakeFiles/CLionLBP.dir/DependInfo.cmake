@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Admin/Desktop/CLionLBP/RecursionAndBacktracking/ratInMaze.cpp" "C:/Users/Admin/Desktop/CLionLBP/cmake-build-debug/CMakeFiles/CLionLBP.dir/RecursionAndBacktracking/ratInMaze.cpp.obj"
+  "C:/Users/Admin/Desktop/CLionLBP/LinkedList/LL2/findTriplets.cpp" "C:/Users/Admin/Desktop/CLionLBP/cmake-build-debug/CMakeFiles/CLionLBP.dir/LinkedList/LL2/findTriplets.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

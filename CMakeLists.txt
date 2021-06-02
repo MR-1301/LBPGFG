@@ -3,4 +3,4 @@ project(CLionLBP)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(CLionLBP RecursionAndBacktracking/ratInMaze.cpp)
+add_executable(CLionLBP LinkedList/LL2/findTriplets.cpp)

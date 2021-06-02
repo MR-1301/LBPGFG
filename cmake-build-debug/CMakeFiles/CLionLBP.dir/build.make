@@ -75,27 +75,27 @@ include CMakeFiles/CLionLBP.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/CLionLBP.dir/flags.make
 
-CMakeFiles/CLionLBP.dir/RecursionAndBacktracking/ratInMaze.cpp.obj: CMakeFiles/CLionLBP.dir/flags.make
-CMakeFiles/CLionLBP.dir/RecursionAndBacktracking/ratInMaze.cpp.obj: ../RecursionAndBacktracking/ratInMaze.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Admin\Desktop\CLionLBP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CLionLBP.dir/RecursionAndBacktracking/ratInMaze.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CLionLBP.dir\RecursionAndBacktracking\ratInMaze.cpp.obj -c C:\Users\Admin\Desktop\CLionLBP\RecursionAndBacktracking\ratInMaze.cpp
+CMakeFiles/CLionLBP.dir/LinkedList/LL2/findTriplets.cpp.obj: CMakeFiles/CLionLBP.dir/flags.make
+CMakeFiles/CLionLBP.dir/LinkedList/LL2/findTriplets.cpp.obj: ../LinkedList/LL2/findTriplets.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Admin\Desktop\CLionLBP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CLionLBP.dir/LinkedList/LL2/findTriplets.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CLionLBP.dir\LinkedList\LL2\findTriplets.cpp.obj -c C:\Users\Admin\Desktop\CLionLBP\LinkedList\LL2\findTriplets.cpp
 
-CMakeFiles/CLionLBP.dir/RecursionAndBacktracking/ratInMaze.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CLionLBP.dir/RecursionAndBacktracking/ratInMaze.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Desktop\CLionLBP\RecursionAndBacktracking\ratInMaze.cpp > CMakeFiles\CLionLBP.dir\RecursionAndBacktracking\ratInMaze.cpp.i
+CMakeFiles/CLionLBP.dir/LinkedList/LL2/findTriplets.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CLionLBP.dir/LinkedList/LL2/findTriplets.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Desktop\CLionLBP\LinkedList\LL2\findTriplets.cpp > CMakeFiles\CLionLBP.dir\LinkedList\LL2\findTriplets.cpp.i
 
-CMakeFiles/CLionLBP.dir/RecursionAndBacktracking/ratInMaze.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CLionLBP.dir/RecursionAndBacktracking/ratInMaze.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Desktop\CLionLBP\RecursionAndBacktracking\ratInMaze.cpp -o CMakeFiles\CLionLBP.dir\RecursionAndBacktracking\ratInMaze.cpp.s
+CMakeFiles/CLionLBP.dir/LinkedList/LL2/findTriplets.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CLionLBP.dir/LinkedList/LL2/findTriplets.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Desktop\CLionLBP\LinkedList\LL2\findTriplets.cpp -o CMakeFiles\CLionLBP.dir\LinkedList\LL2\findTriplets.cpp.s
 
 # Object files for target CLionLBP
 CLionLBP_OBJECTS = \
-"CMakeFiles/CLionLBP.dir/RecursionAndBacktracking/ratInMaze.cpp.obj"
+"CMakeFiles/CLionLBP.dir/LinkedList/LL2/findTriplets.cpp.obj"
 
 # External object files for target CLionLBP
 CLionLBP_EXTERNAL_OBJECTS =
 
-CLionLBP.exe: CMakeFiles/CLionLBP.dir/RecursionAndBacktracking/ratInMaze.cpp.obj
+CLionLBP.exe: CMakeFiles/CLionLBP.dir/LinkedList/LL2/findTriplets.cpp.obj
 CLionLBP.exe: CMakeFiles/CLionLBP.dir/build.make
 CLionLBP.exe: CMakeFiles/CLionLBP.dir/linklibs.rsp
 CLionLBP.exe: CMakeFiles/CLionLBP.dir/objects1.rsp

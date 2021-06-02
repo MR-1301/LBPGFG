@@ -141,32 +141,32 @@ CLionLBP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/build
 .PHONY : CLionLBP/fast
 
-RecursionAndBacktracking/ratInMaze.obj: RecursionAndBacktracking/ratInMaze.cpp.obj
+LinkedList/LL2/findTriplets.obj: LinkedList/LL2/findTriplets.cpp.obj
 
-.PHONY : RecursionAndBacktracking/ratInMaze.obj
+.PHONY : LinkedList/LL2/findTriplets.obj
 
 # target to build an object file
-RecursionAndBacktracking/ratInMaze.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/RecursionAndBacktracking/ratInMaze.cpp.obj
-.PHONY : RecursionAndBacktracking/ratInMaze.cpp.obj
+LinkedList/LL2/findTriplets.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/LinkedList/LL2/findTriplets.cpp.obj
+.PHONY : LinkedList/LL2/findTriplets.cpp.obj
 
-RecursionAndBacktracking/ratInMaze.i: RecursionAndBacktracking/ratInMaze.cpp.i
+LinkedList/LL2/findTriplets.i: LinkedList/LL2/findTriplets.cpp.i
 
-.PHONY : RecursionAndBacktracking/ratInMaze.i
+.PHONY : LinkedList/LL2/findTriplets.i
 
 # target to preprocess a source file
-RecursionAndBacktracking/ratInMaze.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/RecursionAndBacktracking/ratInMaze.cpp.i
-.PHONY : RecursionAndBacktracking/ratInMaze.cpp.i
+LinkedList/LL2/findTriplets.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/LinkedList/LL2/findTriplets.cpp.i
+.PHONY : LinkedList/LL2/findTriplets.cpp.i
 
-RecursionAndBacktracking/ratInMaze.s: RecursionAndBacktracking/ratInMaze.cpp.s
+LinkedList/LL2/findTriplets.s: LinkedList/LL2/findTriplets.cpp.s
 
-.PHONY : RecursionAndBacktracking/ratInMaze.s
+.PHONY : LinkedList/LL2/findTriplets.s
 
 # target to generate assembly for a file
-RecursionAndBacktracking/ratInMaze.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/RecursionAndBacktracking/ratInMaze.cpp.s
-.PHONY : RecursionAndBacktracking/ratInMaze.cpp.s
+LinkedList/LL2/findTriplets.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/LinkedList/LL2/findTriplets.cpp.s
+.PHONY : LinkedList/LL2/findTriplets.cpp.s
 
 # Help Target
 help:
@@ -177,9 +177,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... CLionLBP
-	@echo ... RecursionAndBacktracking/ratInMaze.obj
-	@echo ... RecursionAndBacktracking/ratInMaze.i
-	@echo ... RecursionAndBacktracking/ratInMaze.s
+	@echo ... LinkedList/LL2/findTriplets.obj
+	@echo ... LinkedList/LL2/findTriplets.i
+	@echo ... LinkedList/LL2/findTriplets.s
 .PHONY : help
 
 
