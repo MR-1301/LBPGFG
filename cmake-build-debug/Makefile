@@ -141,32 +141,32 @@ CLionLBP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/build
 .PHONY : CLionLBP/fast
 
-LinkedList/LL2/findTriplets.obj: LinkedList/LL2/findTriplets.cpp.obj
+LinkedList/LL2/rotateDLLinGrp.obj: LinkedList/LL2/rotateDLLinGrp.cpp.obj
 
-.PHONY : LinkedList/LL2/findTriplets.obj
+.PHONY : LinkedList/LL2/rotateDLLinGrp.obj
 
 # target to build an object file
-LinkedList/LL2/findTriplets.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/LinkedList/LL2/findTriplets.cpp.obj
-.PHONY : LinkedList/LL2/findTriplets.cpp.obj
+LinkedList/LL2/rotateDLLinGrp.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/LinkedList/LL2/rotateDLLinGrp.cpp.obj
+.PHONY : LinkedList/LL2/rotateDLLinGrp.cpp.obj
 
-LinkedList/LL2/findTriplets.i: LinkedList/LL2/findTriplets.cpp.i
+LinkedList/LL2/rotateDLLinGrp.i: LinkedList/LL2/rotateDLLinGrp.cpp.i
 
-.PHONY : LinkedList/LL2/findTriplets.i
+.PHONY : LinkedList/LL2/rotateDLLinGrp.i
 
 # target to preprocess a source file
-LinkedList/LL2/findTriplets.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/LinkedList/LL2/findTriplets.cpp.i
-.PHONY : LinkedList/LL2/findTriplets.cpp.i
+LinkedList/LL2/rotateDLLinGrp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/LinkedList/LL2/rotateDLLinGrp.cpp.i
+.PHONY : LinkedList/LL2/rotateDLLinGrp.cpp.i
 
-LinkedList/LL2/findTriplets.s: LinkedList/LL2/findTriplets.cpp.s
+LinkedList/LL2/rotateDLLinGrp.s: LinkedList/LL2/rotateDLLinGrp.cpp.s
 
-.PHONY : LinkedList/LL2/findTriplets.s
+.PHONY : LinkedList/LL2/rotateDLLinGrp.s
 
 # target to generate assembly for a file
-LinkedList/LL2/findTriplets.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/LinkedList/LL2/findTriplets.cpp.s
-.PHONY : LinkedList/LL2/findTriplets.cpp.s
+LinkedList/LL2/rotateDLLinGrp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/LinkedList/LL2/rotateDLLinGrp.cpp.s
+.PHONY : LinkedList/LL2/rotateDLLinGrp.cpp.s
 
 # Help Target
 help:
@@ -177,9 +177,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... CLionLBP
-	@echo ... LinkedList/LL2/findTriplets.obj
-	@echo ... LinkedList/LL2/findTriplets.i
-	@echo ... LinkedList/LL2/findTriplets.s
+	@echo ... LinkedList/LL2/rotateDLLinGrp.obj
+	@echo ... LinkedList/LL2/rotateDLLinGrp.i
+	@echo ... LinkedList/LL2/rotateDLLinGrp.s
 .PHONY : help
 
 

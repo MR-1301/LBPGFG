@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Admin/Desktop/CLionLBP/LinkedList/LL2/findTriplets.cpp">
+		<Unit filename="C:/Users/Admin/Desktop/CLionLBP/LinkedList/LL2/rotateDLLinGrp.cpp">
 			<Option target="CLionLBP"/>
 		</Unit>
 		<Unit filename="C:/Users/Admin/Desktop/CLionLBP/CMakeLists.txt">

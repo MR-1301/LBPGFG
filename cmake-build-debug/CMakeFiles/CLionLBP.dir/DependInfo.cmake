@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Admin/Desktop/CLionLBP/LinkedList/LL2/findTriplets.cpp" "C:/Users/Admin/Desktop/CLionLBP/cmake-build-debug/CMakeFiles/CLionLBP.dir/LinkedList/LL2/findTriplets.cpp.obj"
+  "C:/Users/Admin/Desktop/CLionLBP/LinkedList/LL2/rotateDLLinGrp.cpp" "C:/Users/Admin/Desktop/CLionLBP/cmake-build-debug/CMakeFiles/CLionLBP.dir/LinkedList/LL2/rotateDLLinGrp.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
