@@ -141,32 +141,32 @@ CLionLBP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/build
 .PHONY : CLionLBP/fast
 
-LinkedList/LL2/rotateDLLinGrp.obj: LinkedList/LL2/rotateDLLinGrp.cpp.obj
+Tree/TREE1/preAndSucc.obj: Tree/TREE1/preAndSucc.cpp.obj
 
-.PHONY : LinkedList/LL2/rotateDLLinGrp.obj
+.PHONY : Tree/TREE1/preAndSucc.obj
 
 # target to build an object file
-LinkedList/LL2/rotateDLLinGrp.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/LinkedList/LL2/rotateDLLinGrp.cpp.obj
-.PHONY : LinkedList/LL2/rotateDLLinGrp.cpp.obj
+Tree/TREE1/preAndSucc.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/Tree/TREE1/preAndSucc.cpp.obj
+.PHONY : Tree/TREE1/preAndSucc.cpp.obj
 
-LinkedList/LL2/rotateDLLinGrp.i: LinkedList/LL2/rotateDLLinGrp.cpp.i
+Tree/TREE1/preAndSucc.i: Tree/TREE1/preAndSucc.cpp.i
 
-.PHONY : LinkedList/LL2/rotateDLLinGrp.i
+.PHONY : Tree/TREE1/preAndSucc.i
 
 # target to preprocess a source file
-LinkedList/LL2/rotateDLLinGrp.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/LinkedList/LL2/rotateDLLinGrp.cpp.i
-.PHONY : LinkedList/LL2/rotateDLLinGrp.cpp.i
+Tree/TREE1/preAndSucc.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/Tree/TREE1/preAndSucc.cpp.i
+.PHONY : Tree/TREE1/preAndSucc.cpp.i
 
-LinkedList/LL2/rotateDLLinGrp.s: LinkedList/LL2/rotateDLLinGrp.cpp.s
+Tree/TREE1/preAndSucc.s: Tree/TREE1/preAndSucc.cpp.s
 
-.PHONY : LinkedList/LL2/rotateDLLinGrp.s
+.PHONY : Tree/TREE1/preAndSucc.s
 
 # target to generate assembly for a file
-LinkedList/LL2/rotateDLLinGrp.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/LinkedList/LL2/rotateDLLinGrp.cpp.s
-.PHONY : LinkedList/LL2/rotateDLLinGrp.cpp.s
+Tree/TREE1/preAndSucc.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/Tree/TREE1/preAndSucc.cpp.s
+.PHONY : Tree/TREE1/preAndSucc.cpp.s
 
 # Help Target
 help:
@@ -177,9 +177,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... CLionLBP
-	@echo ... LinkedList/LL2/rotateDLLinGrp.obj
-	@echo ... LinkedList/LL2/rotateDLLinGrp.i
-	@echo ... LinkedList/LL2/rotateDLLinGrp.s
+	@echo ... Tree/TREE1/preAndSucc.obj
+	@echo ... Tree/TREE1/preAndSucc.i
+	@echo ... Tree/TREE1/preAndSucc.s
 .PHONY : help
 
 

@@ -2,7 +2,7 @@ file(REMOVE_RECURSE
   "CLionLBP.exe"
   "CLionLBP.exe.manifest"
   "CLionLBP.pdb"
-  "CMakeFiles/CLionLBP.dir/LinkedList/LL2/rotateDLLinGrp.cpp.obj"
+  "CMakeFiles/CLionLBP.dir/Tree/TREE1/preAndSucc.cpp.obj"
   "libCLionLBP.dll.a"
 )
 
