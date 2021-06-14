@@ -2,7 +2,7 @@ file(REMOVE_RECURSE
   "CLionLBP.exe"
   "CLionLBP.exe.manifest"
   "CLionLBP.pdb"
-  "CMakeFiles/CLionLBP.dir/Tree/TREE1/preAndSucc.cpp.obj"
+  "CMakeFiles/CLionLBP.dir/Tree/TREE2/preorderToPostorder.cpp.obj"
   "libCLionLBP.dll.a"
 )
 

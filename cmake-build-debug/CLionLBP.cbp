@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Admin/Desktop/CLionLBP/Tree/TREE1/preAndSucc.cpp">
+		<Unit filename="C:/Users/Admin/Desktop/CLionLBP/Tree/TREE2/preorderToPostorder.cpp">
 			<Option target="CLionLBP"/>
 		</Unit>
 		<Unit filename="C:/Users/Admin/Desktop/CLionLBP/CMakeLists.txt">

@@ -116,8 +116,6 @@ void findPreSuc(Node *root, Node *&pre, Node *&suc, int key) {
                 temp = temp->left;
 
             suc = temp;
-        } else {
-            suc = new Node(-1);
         }
 
         if (root->left) {
@@ -126,8 +124,6 @@ void findPreSuc(Node *root, Node *&pre, Node *&suc, int key) {
                 temp = temp->right;
 
             pre = temp;
-        } else {
-            pre = new Node(-1);
         }
     }
 

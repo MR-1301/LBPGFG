@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Admin/Desktop/CLionLBP/Tree/TREE1/preAndSucc.cpp
-iostream
+C:/Users/Admin/Desktop/CLionLBP/Tree/TREE2/preorderToPostorder.cpp
+bits/stdc++.h
 -
 

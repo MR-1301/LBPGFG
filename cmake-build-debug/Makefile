@@ -141,32 +141,32 @@ CLionLBP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/build
 .PHONY : CLionLBP/fast
 
-Tree/TREE1/preAndSucc.obj: Tree/TREE1/preAndSucc.cpp.obj
+Tree/TREE2/preorderToPostorder.obj: Tree/TREE2/preorderToPostorder.cpp.obj
 
-.PHONY : Tree/TREE1/preAndSucc.obj
+.PHONY : Tree/TREE2/preorderToPostorder.obj
 
 # target to build an object file
-Tree/TREE1/preAndSucc.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/Tree/TREE1/preAndSucc.cpp.obj
-.PHONY : Tree/TREE1/preAndSucc.cpp.obj
+Tree/TREE2/preorderToPostorder.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/Tree/TREE2/preorderToPostorder.cpp.obj
+.PHONY : Tree/TREE2/preorderToPostorder.cpp.obj
 
-Tree/TREE1/preAndSucc.i: Tree/TREE1/preAndSucc.cpp.i
+Tree/TREE2/preorderToPostorder.i: Tree/TREE2/preorderToPostorder.cpp.i
 
-.PHONY : Tree/TREE1/preAndSucc.i
+.PHONY : Tree/TREE2/preorderToPostorder.i
 
 # target to preprocess a source file
-Tree/TREE1/preAndSucc.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/Tree/TREE1/preAndSucc.cpp.i
-.PHONY : Tree/TREE1/preAndSucc.cpp.i
+Tree/TREE2/preorderToPostorder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/Tree/TREE2/preorderToPostorder.cpp.i
+.PHONY : Tree/TREE2/preorderToPostorder.cpp.i
 
-Tree/TREE1/preAndSucc.s: Tree/TREE1/preAndSucc.cpp.s
+Tree/TREE2/preorderToPostorder.s: Tree/TREE2/preorderToPostorder.cpp.s
 
-.PHONY : Tree/TREE1/preAndSucc.s
+.PHONY : Tree/TREE2/preorderToPostorder.s
 
 # target to generate assembly for a file
-Tree/TREE1/preAndSucc.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/Tree/TREE1/preAndSucc.cpp.s
-.PHONY : Tree/TREE1/preAndSucc.cpp.s
+Tree/TREE2/preorderToPostorder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/Tree/TREE2/preorderToPostorder.cpp.s
+.PHONY : Tree/TREE2/preorderToPostorder.cpp.s
 
 # Help Target
 help:
@@ -177,9 +177,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... CLionLBP
-	@echo ... Tree/TREE1/preAndSucc.obj
-	@echo ... Tree/TREE1/preAndSucc.i
-	@echo ... Tree/TREE1/preAndSucc.s
+	@echo ... Tree/TREE2/preorderToPostorder.obj
+	@echo ... Tree/TREE2/preorderToPostorder.i
+	@echo ... Tree/TREE2/preorderToPostorder.s
 .PHONY : help
 
 
