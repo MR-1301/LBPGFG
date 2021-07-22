@@ -75,27 +75,27 @@ include CMakeFiles/CLionLBP.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/CLionLBP.dir/flags.make
 
-CMakeFiles/CLionLBP.dir/Tree/TREE2/preorderToPostorder.cpp.obj: CMakeFiles/CLionLBP.dir/flags.make
-CMakeFiles/CLionLBP.dir/Tree/TREE2/preorderToPostorder.cpp.obj: ../Tree/TREE2/preorderToPostorder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Admin\Desktop\CLionLBP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CLionLBP.dir/Tree/TREE2/preorderToPostorder.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CLionLBP.dir\Tree\TREE2\preorderToPostorder.cpp.obj -c C:\Users\Admin\Desktop\CLionLBP\Tree\TREE2\preorderToPostorder.cpp
+CMakeFiles/CLionLBP.dir/TestFileLeetCode.cpp.obj: CMakeFiles/CLionLBP.dir/flags.make
+CMakeFiles/CLionLBP.dir/TestFileLeetCode.cpp.obj: ../TestFileLeetCode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Admin\Desktop\CLionLBP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CLionLBP.dir/TestFileLeetCode.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CLionLBP.dir\TestFileLeetCode.cpp.obj -c C:\Users\Admin\Desktop\CLionLBP\TestFileLeetCode.cpp
 
-CMakeFiles/CLionLBP.dir/Tree/TREE2/preorderToPostorder.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CLionLBP.dir/Tree/TREE2/preorderToPostorder.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Desktop\CLionLBP\Tree\TREE2\preorderToPostorder.cpp > CMakeFiles\CLionLBP.dir\Tree\TREE2\preorderToPostorder.cpp.i
+CMakeFiles/CLionLBP.dir/TestFileLeetCode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CLionLBP.dir/TestFileLeetCode.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Desktop\CLionLBP\TestFileLeetCode.cpp > CMakeFiles\CLionLBP.dir\TestFileLeetCode.cpp.i
 
-CMakeFiles/CLionLBP.dir/Tree/TREE2/preorderToPostorder.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CLionLBP.dir/Tree/TREE2/preorderToPostorder.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Desktop\CLionLBP\Tree\TREE2\preorderToPostorder.cpp -o CMakeFiles\CLionLBP.dir\Tree\TREE2\preorderToPostorder.cpp.s
+CMakeFiles/CLionLBP.dir/TestFileLeetCode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CLionLBP.dir/TestFileLeetCode.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Desktop\CLionLBP\TestFileLeetCode.cpp -o CMakeFiles\CLionLBP.dir\TestFileLeetCode.cpp.s
 
 # Object files for target CLionLBP
 CLionLBP_OBJECTS = \
-"CMakeFiles/CLionLBP.dir/Tree/TREE2/preorderToPostorder.cpp.obj"
+"CMakeFiles/CLionLBP.dir/TestFileLeetCode.cpp.obj"
 
 # External object files for target CLionLBP
 CLionLBP_EXTERNAL_OBJECTS =
 
-CLionLBP.exe: CMakeFiles/CLionLBP.dir/Tree/TREE2/preorderToPostorder.cpp.obj
+CLionLBP.exe: CMakeFiles/CLionLBP.dir/TestFileLeetCode.cpp.obj
 CLionLBP.exe: CMakeFiles/CLionLBP.dir/build.make
 CLionLBP.exe: CMakeFiles/CLionLBP.dir/linklibs.rsp
 CLionLBP.exe: CMakeFiles/CLionLBP.dir/objects1.rsp

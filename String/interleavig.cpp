@@ -17,9 +17,9 @@ typedef pair<ll, ll>	pa;
 typedef vector<ll>		vc;
 typedef vector<pa>		vp;
 typedef vector<vc>		vvc;
-using matrix=vector<vector<ll> >; 
+using matrix=vector<vector<ll> >;
 
-int mpow(int base, int exp); 
+int mpow(int base, int exp);
 void ipgraph(ll n,ll m);
 void dfs(int u, int par);
 void outc(vc a);

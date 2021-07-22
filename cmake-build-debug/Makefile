@@ -141,32 +141,32 @@ CLionLBP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/build
 .PHONY : CLionLBP/fast
 
-Tree/TREE2/preorderToPostorder.obj: Tree/TREE2/preorderToPostorder.cpp.obj
+TestFileLeetCode.obj: TestFileLeetCode.cpp.obj
 
-.PHONY : Tree/TREE2/preorderToPostorder.obj
+.PHONY : TestFileLeetCode.obj
 
 # target to build an object file
-Tree/TREE2/preorderToPostorder.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/Tree/TREE2/preorderToPostorder.cpp.obj
-.PHONY : Tree/TREE2/preorderToPostorder.cpp.obj
+TestFileLeetCode.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/TestFileLeetCode.cpp.obj
+.PHONY : TestFileLeetCode.cpp.obj
 
-Tree/TREE2/preorderToPostorder.i: Tree/TREE2/preorderToPostorder.cpp.i
+TestFileLeetCode.i: TestFileLeetCode.cpp.i
 
-.PHONY : Tree/TREE2/preorderToPostorder.i
+.PHONY : TestFileLeetCode.i
 
 # target to preprocess a source file
-Tree/TREE2/preorderToPostorder.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/Tree/TREE2/preorderToPostorder.cpp.i
-.PHONY : Tree/TREE2/preorderToPostorder.cpp.i
+TestFileLeetCode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/TestFileLeetCode.cpp.i
+.PHONY : TestFileLeetCode.cpp.i
 
-Tree/TREE2/preorderToPostorder.s: Tree/TREE2/preorderToPostorder.cpp.s
+TestFileLeetCode.s: TestFileLeetCode.cpp.s
 
-.PHONY : Tree/TREE2/preorderToPostorder.s
+.PHONY : TestFileLeetCode.s
 
 # target to generate assembly for a file
-Tree/TREE2/preorderToPostorder.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/Tree/TREE2/preorderToPostorder.cpp.s
-.PHONY : Tree/TREE2/preorderToPostorder.cpp.s
+TestFileLeetCode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLionLBP.dir\build.make CMakeFiles/CLionLBP.dir/TestFileLeetCode.cpp.s
+.PHONY : TestFileLeetCode.cpp.s
 
 # Help Target
 help:
@@ -177,9 +177,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... CLionLBP
-	@echo ... Tree/TREE2/preorderToPostorder.obj
-	@echo ... Tree/TREE2/preorderToPostorder.i
-	@echo ... Tree/TREE2/preorderToPostorder.s
+	@echo ... TestFileLeetCode.obj
+	@echo ... TestFileLeetCode.i
+	@echo ... TestFileLeetCode.s
 .PHONY : help
 
 
